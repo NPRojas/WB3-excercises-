@@ -9,3 +9,7 @@ function whyImHere() {
 function favoritePlace() {
     console.log(`There's a secret park in the uptown part of the city where the river is beautiful in the summer and the snow is a wonderland in the winter. Where? I'll never tell ;)`);
 }
+
+favoriteThings();
+favoritePlace();
+whyImHere();
