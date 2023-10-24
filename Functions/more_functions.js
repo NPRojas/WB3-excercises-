@@ -1,17 +1,17 @@
 function displayMailingLabel(name, address, city, state, zip) {
     const addressLabel = `${name} \n${address} \n${city}, ${state} \n${zip}`
-    console.log(addressLabel);
+    console.log(addressLabel + '\n');
 }
 
 function addNumbers(num1, num2) {
     const add = num1 + num2
-    console.log(add);
+    console.log(add + '\n');
 }
 
 function displayReceipt(totalDue, amountPaid) {
     const changeDue = amountPaid - totalDue;
     const reciept = `Total Due: $${totalDue} \nAmount Paid: $${amountPaid} \nChange Due: $${changeDue}`
-    console.log(reciept);
+    console.log(reciept + '\n');
 }
 
 displayMailingLabel('Christina Castillo', '431 Murry Ave', 'New York', 'New York', '10531');
